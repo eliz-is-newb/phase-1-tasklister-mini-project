@@ -1,17 +1,39 @@
 html {
   height: 100%;
   width: 100%;
-  font-family: "Titillium Web", sans-serif;
+  font-family: "Arial", sans-serif;
+  color: white;
 }
 
 body {
   min-height: 100%;
   min-width: 100%;
-  background: linear-gradient(pink, violet);
+  background: white;
 }
 
 button {
   font-size: 7px;
+}
+
+#naga {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin: 0 auto;
+  border-radius: 60px;
+
+
+}
+
+#miamiNaga {
+  object-fit: center;
+  margin: 0 auto;
+  width: 50%;
+  
+
+
 }
 
 #main-content {
@@ -21,8 +43,8 @@ button {
   align-items: center;
   flex-direction: column;
   border: 1px solid #333;
-  background: rgba(255, 255, 255, 0.3);
-  padding: 15px 20px 18px 18px;
+  background: black;
+  padding: 15px 20px 18px 18px; 
   border-radius: 5px;
   box-shadow: 2px 5px 5px #333;
 }
@@ -30,7 +52,7 @@ button {
 #list {
   margin: 10px;
   border: 1px solid #333;
-  background: rgba(255, 255, 255, 0.75);
+  background: rgba(14, 236, 17, 0.75);
   padding: 15px 20px 18px 18px;
   border-radius: 5px;
   box-shadow: 2px 5px 5px #333;
